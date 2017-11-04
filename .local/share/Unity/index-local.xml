@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  <ivy-repository xmlns:e="http://ant.apache.org/ivy/extra">
+    <ivy-module version="2.0" e:basepath="/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport">
+      <info version="5.4.0" organisation="Unity" module="StandaloneOSXIntel" e:packageType="PlaybackEngine" e:unityVersion="5.4.0f3" />
+      <publications>
+        <artifact name="UnityEditor.OSXStandalone.Extensions" type="dll" ext="dll" />
+      </publications>
+    </ivy-module>
+    <ivy-module version="2.0" e:basepath="/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking">
+      <info version="5.4.0" organisation="Unity" module="UNetHLAPI" e:packageType="UnityExtension" e:unityVersion="5.4.0f3" />
+      <publications>
+        <artifact name="UnityEngine.Networking" type="dll" ext="dll" e:guid="870353891bb340e2b2a9c8707e7419ba" />
+        <artifact name="Editor/UnityEditor.Networking" type="dll" ext="dll" e:guid="5f32cd94baa94578a686d4b9d6b660f7" />
+      </publications>
+    </ivy-module>
+    <ivy-module version="2.0" e:basepath="/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem">
+      <info version="5.4.0" organisation="Unity" module="GUISystem" e:packageType="UnityExtension" e:unityVersion="5.4.0f3" />
+      <publications>
+        <artifact name="UnityEngine.UI" type="dll" ext="dll" e:guid="f5f67c52d1564df4a8936ccd202a3bd8" />
+        <artifact name="Editor/UnityEditor.UI" type="dll" ext="dll" e:guid="80a3616ca19596e4da0f10f14d241e9f" />
+      </publications>
+    </ivy-module>
+    <ivy-module version="2.0" e:basepath="/Applications/Unity/Unity.app/Contents/PackageManager/Unity/PackageManager/5.4.0">
+      <info version="5.4.0" organisation="Unity" module="PackageManager" e:packageType="PackageManager" e:unityVersion="5.4.0f3" />
+      <publications>
+        <artifact name="Unity.PackageManager" type="dll" ext="dll" />
+      </publications>
+    </ivy-module>
+    <ivy-module version="2.0" e:basepath="/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements">
+      <info version="5.4.0" organisation="Unity" module="Advertisements" e:packageType="UnityExtension" e:unityVersion="5.4.0f3" />
+      <publications>
+        <artifact name="UnityEngine.Advertisements" type="dll" ext="dll" e:guid="739bbd9f364b4268874f9fd86ab3beef" />
+        <artifact name="Editor/UnityEditor.Advertisements" type="dll" ext="dll" e:guid="97decbdab0634cdd991f8d23ddf0dead" />
+      </publications>
+    </ivy-module>
+    <ivy-module version="2.0" e:basepath="/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner">
+      <info version="5.4.0" organisation="Unity" module="EditorTestsRunner" e:packageType="UnityExtension" e:unityVersion="5.4.0f3" />
+      <publications>
+        <artifact name="Editor/nunit.framework" type="dll" ext="dll" e:guid="7cbab2be89b54486bbd23a6fe637d30e" />
+        <artifact name="Editor/UnityEditor.EditorTestsRunner" type="dll" ext="dll" e:guid="3c0ad459c1534645b5d603b7cc258f97" />
+      </publications>
+    </ivy-module>
+    <ivy-module version="2.0" e:basepath="/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor">
+      <info version="5.4.0" organisation="Unity" module="TreeEditor" e:packageType="UnityExtension" e:unityVersion="5.4.0f3" />
+      <publications>
+        <artifact name="Editor/UnityEditor.TreeEditor" type="dll" ext="dll" e:guid="adebbd281f1a4ef3a30be7f21937e02f" />
+      </publications>
+    </ivy-module>
+    <ivy-module version="2.0" e:basepath="/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics">
+      <info version="5.4.0" organisation="Unity" module="UnityAnalytics" e:packageType="UnityExtension" e:unityVersion="5.4.0f3" />
+      <publications>
+        <artifact name="UnityEngine.Analytics" type="dll" ext="dll" e:guid="852E56802EB941638ACBB491814497B0" />
+      </publications>
+    </ivy-module>
+    <ivy-module version="2.0" e:basepath="/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing">
+      <info version="5.4.0" organisation="Unity" module="UnityPurchasing" e:packageType="UnityExtension" e:unityVersion="5.4.0f3" />
+      <publications>
+        <artifact name="UnityEngine.Purchasing" type="dll" ext="dll" e:guid="8E0CD8ED44D4412CBE0642067ABC9E44" />
+      </publications>
+    </ivy-module>
+  </ivy-repository>

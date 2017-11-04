@@ -1,0 +1,13 @@
+[core]
+	excludesfile = /Users/satomiyokoyama/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree 2.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[user]
+	name = satomi2
+	email = sato.t.sin2117@gmail.com
+[commit]
+	template = /Users/satomiyokoyama/.stCommitMsg
